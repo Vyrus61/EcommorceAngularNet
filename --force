@@ -1,0 +1,19 @@
+Description:
+  .NET Remove Komutu
+
+Usage:
+  dotnet remove [<PROJECT>] [command] [options]
+
+Arguments:
+  <PROJECT>  Üzerinde işlem yapılacak proje dosyası. Bir dosya belirtilmezse, komut geçerli dizinde böyle bir dosya 
+             arar. [default: C:\Users\Ogun\Desktop\tutorials\2023FullStack\skinet\]
+
+Options:
+  -?, -h, --help  Komut satırı yardımını gösterir.
+
+
+Commands:
+  package <PACKAGE_NAME>    Bir NuGet paketi başvurusunu projeden kaldırın.
+  reference <PROJECT_PATH>  Bir projeden projeye başvuruyu projeden kaldırın.
+
+
